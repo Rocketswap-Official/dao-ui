@@ -23,8 +23,7 @@
                 if (ui === proposal.id){
                     let indx = u.proposals.indexOf(ui);
                     let c = u.choice_idx[indx];
-                    let cWeight = u.rswp_balance + u.rocket_fuel + u.staked_rswp + u.lp_stake + u.lp_points;
-                    
+                    let cWeight = u.rswp_balance + u.rocket_fuel + u.staked_rswp + u.staked_lp_value[indx] + u.lp_value[indx];
                     for (let u1 of choiceArray){
                         if (u1.choiceIdx === c){
                             u1.voteWeight += cWeight
