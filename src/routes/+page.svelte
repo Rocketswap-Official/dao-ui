@@ -32,8 +32,8 @@
         "rswp_balance": 1000,
         "rocket_fuel": 2000,
         "staked_rswp": 50000,
-        "lp_stake": 150,
-        "lp_points": 100
+        "staked_lp_value": [2000, 3000],
+        "lp_value": [3000, 4000]
     },
     {
         "vk": 'bbbbbbbbbb',
@@ -44,8 +44,8 @@
         "rswp_balance": 1000,
         "rocket_fuel": 2020,
         "staked_rswp": 50500,
-        "lp_stake": 155,
-        "lp_points": 110
+        "staked_lp_value": [2020, 3300],
+        "lp_value": [3300, 4040]
     }]
     
     //const proposals = [];
